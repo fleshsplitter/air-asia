@@ -10,29 +10,31 @@
 
 <body>
 
-  <div class="page">
-
+  <div class="wrapper">
     <header class="header">
       <div class="logo">
-        <img class="logo-pic"
+        <img class="logo__pic"
           src="https://s3-alpha-sig.figma.com/img/699f/b156/361e66606363e1438f310525ee4ee721?Expires=1643587200&Signature=Yte~7ecN~eRZ7F9gJQcsZcJHLaVe7floziqNfWASqEO-hM~0xyjH9YVsU0XwjQUxsEdh0DwqDnczI93IILMWBmX05QRhdgwAZ6NBlYZz9FNBTklgAOUtZIQ2znW9L6BavvEtK7InwVsO9SH7MFxS8F96gPfk-3Gu-spZRcRsJZTq6KjrGcW4RL1Azuwypb4lifGC7Lx9c5Oyk8qAgbPPBE8RuP5SdySva1S47N6fck4n6mwyGojywUgaE3scOrjW3TQ8LPCJfjoowY~tmZChss4VRgdbhIZHh246fdMpHKObS~mINsYu~5k4xknC-z674emtRvPbk8QYec2HKCAGDQ__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
-          alt="">
+          alt=""
+        >
       </div>
+
       <div class="navigation">
-        <ul class="navigation-list">
-          <li class="navigation-item">
-            <a class="navigation-link" href="#">Главная</a>
+        <ul class="navigation__list">
+          <li class="navigation__item">
+            <a class="navigation__link" href="#">Главная</a>
           </li>
-          <li class="navigation-item">
-            <a class="navigation-link" href="#">Услуги</a>
+          <li class="navigation__item">
+            <a class="navigation__link" href="#">Услуги</a>
           </li>
-          <li class="navigation-item">
-            <a class="navigation-link" href="#">Отзывы</a>
+          <li class="navigation__item">
+            <a class="navigation__link" href="#">Отзывы</a>
           </li>
         </ul>
       </div>
+
       <div class="contacts">
-          <a class="contacts-tel" href="tel:+78007003030">8 800 700 30 30</a>
+        <a class="contacts-tel" href="tel:+78007003030">8 800 700 30 30</a>
         <div class="timetable">
           <a class="timetable-link" href="">График работы</a>
         </div>
@@ -43,21 +45,26 @@
     </header>
 
     <main>
+      <section class="main-section">
+        <h1 class="main-section__title">Авторские туры по Азии</h1>
 
-      <article class="main-header">
-        <h1 class="main-header-text">Авторские туры по Азии</h1>
-        <p class="main-header-text">Открой для себя Азию</p>
-        <a class="main-header-button" href="#">подробнее</a>
-      </article>
-      <article class="burning-tours">
-        <div class="burning-tours-header-text">
+        <p class="main-section__text">Открой для себя Азию</p>
+
+        <button class="button" type="button" href="#">
+          подробнее
+        </button>
+      </section>
+
+      <section class="section">
+        <header class="section__title">
           <h2>Горящие туры</h2>
           <img class="burning-flame"
             src="https://s3-alpha-sig.figma.com/img/b3c3/b5ec/5a4bc1247f2ef8813f45a3c459f8fce7?Expires=1643587200&Signature=esT71FM65URXqexaBNP~6OdERYe7azNqQIr8uQE3tG~IBshRXFNSv92CEPWu9OLCsQHUhcWRjDRJ463IogB~lM-d~uBF7oO-jGbZyN2i~xpmFEY08p~RUllC7eZ~VVMXwkIYPwqr0Wb4lbNtviISKkHR-lUrCRBO-f-aSdpHK1JY2S8iVAvSMgRgbtqWTVMwIfz3A9cUmBN73yuSmxxzQF8T56XUcaufpnzmlNJ2bZ7YWqO1hQCGi8Y7GPrcY~DHL9CtsF028fxZfVPJd3l8DF1WQmCGeG7J47TPQAcggd1vcwIJUMv4mmjbGKSdWK6klfXCp68ZCCkXTMhAevigwA__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
             alt="">
-        </div>
-        <div class="burning-tours-list">
-          <ul class="burning-tours-list-list">
+        </header>
+
+        <main class="section__content">
+          <ul class="burning-tours">
             <li class="country">
               <div class="country-filling">
                 <div class="country-image">
@@ -123,14 +130,16 @@
                     src="https://s3-alpha-sig.figma.com/img/96da/ebab/2700e4ba756274bcb379798f839ca30b?Expires=1643587200&Signature=G1HW6MhpcJYuOCzCYOx517gsEytcJmhpTTr9e4mmjV2Zgy0pbIGI45IQXc9VMsnEOLnI6KlNVelrKscDap4hgfJUWo-z3TrOH2PhJ9kxq7wIIqNhL4N-ifQGjCOm1PdUFHALLX90-pOHYvT94Yg7hQurY2qeQDZljpECyytwZNCsT0gxBW25SLBbh24-9iQHDmd4R3lsPBdSooGHrSp~O9wyBjX06-oaiK5qP74mckizAXMA9B9-f08QSFL4R3i1YbjSGl~SsxKTC6iOHyu6cN0WyS4dxs-OuzOzDxUsC8DmnmlbWhNLOACH~rjLl2VjLaLsmxVBz3eRVmaDMWULXQ__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
                     alt="">
                 </div>
-                <div class="country-maintext">
-                  <h3 class="country-header">Индонезия</h3>
-                </div>
+
+                <h3 class="country-header">Индонезия</h3>
+
                 <div class="tours-icons">
                   <img class="icons-calendar"
                     src="https://s3-alpha-sig.figma.com/img/095d/9122/d7c8721e45171faa8ba34e916bdc4c3e?Expires=1643587200&Signature=Gq6-NxChbgi5Xkpdfj9D0E-FfRdVYJto9e8ITEApdKUHv3lM9Odab8SsfjbaU7GBYpP2HNjQe~0JQqY8auG2ilymotaYrKJ8C1LhnB-6Lj86TiV9Y9xK1H~boevnrPdE4m4o1Dw8czOEayPqh0Kv5-C8wlVStUl4U~0H2Z-2c7VoO1zuHCzbS3BIFTmxpXAZReFe8BtPS45XV4tR5UshATpWzsKFm8zj6xch5S7PQxYCWx3CleqaVQzAN8EcVjFwVdD~njHRsI5ghzV~NKLPfIs8nu7ADVJbpiBlLdVv6FDJgWd1iKNoR4l0d4pg8Ze5uWtGSoO7ZV~DiWSUsTIDZg__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
                     alt="">
-                  <p class="icons-text">7 -12 ночей</p>
+
+                  <span class="icons-text">7- 12 ночей</span>
+
                   <img class="icons-food"
                     src="https://s3-alpha-sig.figma.com/img/ce4b/9171/b2d2078f6ad56ed0d0df24980fa9d8ac?Expires=1643587200&Signature=LwRC9gxaRKL-53rB0c5t~cx3GRKspAFA34ppd7kdeD5TjOxpoaG~-FJ0geWCDNTDWV~QhWvPtfZVsBMhkvbxcti-3gcFlGXuEAEWUbIsKq58MsXYkx0zIgapeU4l4jJbS4g-~34Mde4lpRnA1mWFlEL7AM9vsKypSgLOwjj~3nuTouXdJ8fpXUQSImK8lG6BSiw1L1e-zQqUWGKcw6X6G82sV4tOsCCF3DF2BiG7PIKZ-4jQ0wz03yfgFuYD1VuVY23Om29qfYnkWBj1snT12oS7fc2u~6Li081JoUw6TTLTgxpgZ4VDxPkNybq6VJ1ij3yFQtjrbedIGM-iE2l7ZA__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
                     alt="">
@@ -146,9 +155,10 @@
               </div>
             </li>
           </ul>
-        </div>
-      </article>
-      <article class="news">
+        </main>
+      </section>
+
+      <section class="news">
         <h2 class="news-header">
           Новости и акции
         </h2>
@@ -169,27 +179,30 @@
                 <img class="news-img"
                   src="https://s3-alpha-sig.figma.com/img/c1d5/9818/168367387edfcee24168f4fcbf6ac222?Expires=1643587200&Signature=Oaa0lw2LOhh3j93j5Zc33uKzO26MmgCo1r10xfPqYm0Q1h7sg3X0f5sgZ15vv7gy82-Sobbl3CiBxxAAEE01mgaTr9bmwGlBYvXinFPJmZd14JB8LWsN0DfsSD2BrJUApqVmKG~dhV6Gc7FWlQnttwp7XFKkpmVVFJO9BQ9rqoVeITgMk5paAUZ1SByTaWw-cqKuBA4cILbwW6CwNa9bhKQSkPIrCtxCsVnduOVJJIldwpjlw96h321vtPJATm5r4-vebNeN~ucsK~RKme7GIeexrHI1eMuZlZywOfsaVhAHiQTMS3yAUkK-Pey8isGtp0lEDKr5WXyTxdQfAjJVNw__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
                   alt="">
-                <p>Декабрь 2019</p>
+                <time>Декабрь 2019</time>
                 <h3>Акция для серфенгистов!</h3>
                 <p>В сезон больших волн скидка на путевку в Тайланд на остров серфенгистов. Удачного пути!</p>
               </div>
             </li>
           </ul>
         </div>
-        <div class="news-pagination">
-          <p class="pagination-text">Страница 1 из 7</p>
-          <ul class="pagination-list">
-            <li class="pagination-item">1</li>
-            <li class="pagination-item">2</li>
-            <li class="pagination-item">3</li>
-            <li class="pagination-item">4</li>
-            <li class="pagination-item">5</li>
-            <li class="pagination-item">6</li>
-            <li class="pagination-item">7</li>
+
+        <div class="pagination">
+          <p class="pagination__text">Страница 1 из 7</p>
+
+          <ul class="pagination__list">
+            <li class="pagination__item">1</li>
+            <li class="pagination__item">2</li>
+            <li class="pagination__item">3</li>
+            <li class="pagination__item">4</li>
+            <li class="pagination__item">5</li>
+            <li class="pagination__item">6</li>
+            <li class="pagination__item">7</li>
           </ul>
         </div>
-      </article>
-      <article class="about">
+      </section>
+
+      <section class="about">
         <div class="about-background">
           <img class="about-background-image"
             src="https://s3-alpha-sig.figma.com/img/efe0/f2c2/21d87212639f44f19abaf4916bc1bfa6?Expires=1643587200&Signature=VC6pb5lRYbrFHBIvRI4mGET1xga79z2XJ4nBoUyaLa05B88c94REVKwMBPyPpSWUyXap7nsV5OrqkrlEau80jYPlN84zlbC-t-R1wO5GB9gfpVxfcN4FWd-rZikcPlzhg-JN~b-IiBS1-x-l0AN1kasClBHt82LD5z2d6UTLUy5owvPsAM~ydtrLvy51U~YoreniZgWd5O-aP--oQhnM96kJIiIMATQ6cuD1rZoLpYsPdyOhkPPt6nDonpx2yXnmWGjBb18hra2XWvkkhvaNBCxouqKV0rf4s~f5okuaXNf8ZPXa0xVh2zFzSabz7YyWzwjAZtpiPpHbtDrG3~diWw__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
@@ -207,38 +220,46 @@
         <div class="main-header-button">
           <a class="main-header-button-text" href="#">подробнее</a>
         </div>
-      </article>
+      </section>
     </main>
-    <div class="footer">
-        <hr>
+
+    <footer class="footer">
+      <hr>
+
       <footer class="main-footer">
-        <div class="header-logo">
+        <a class="header-logo" href="">
           <img class="header-image"
             src="https://s3-alpha-sig.figma.com/img/699f/b156/361e66606363e1438f310525ee4ee721?Expires=1643587200&Signature=Yte~7ecN~eRZ7F9gJQcsZcJHLaVe7floziqNfWASqEO-hM~0xyjH9YVsU0XwjQUxsEdh0DwqDnczI93IILMWBmX05QRhdgwAZ6NBlYZz9FNBTklgAOUtZIQ2znW9L6BavvEtK7InwVsO9SH7MFxS8F96gPfk-3Gu-spZRcRsJZTq6KjrGcW4RL1Azuwypb4lifGC7Lx9c5Oyk8qAgbPPBE8RuP5SdySva1S47N6fck4n6mwyGojywUgaE3scOrjW3TQ8LPCJfjoowY~tmZChss4VRgdbhIZHh246fdMpHKObS~mINsYu~5k4xknC-z674emtRvPbk8QYec2HKCAGDQ__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
-            alt="">
-        </div>
-        <div class="navigation">
-          <ul class="navigation-list">
-            <li class="navigation-item">
-              <a class="navigation-link" href="#">Главная</a>
+            alt=""
+          >
+        </a>
+
+        <nav class="navigation">
+          <ul class="navigation__list">
+            <li class="navigation__item">
+              <a class="navigation__link" href="#">Главная</a>
             </li>
-            <li class="navigation-item">
-              <a class="navigation-link" href="#">Услуги</a>
+
+            <li class="navigation__item">
+              <a class="navigation__link" href="#">Услуги</a>
             </li>
-            <li class="navigation-item">
-              <a class="navigation-link" href="#">Отзывы</a>
+
+            <li class="navigation__item">
+              <a class="navigation__link" href="#">Отзывы</a>
             </li>
           </ul>
-        </div>
-        <div class="footer-social">
+        </nav>
+
+        <div class="footer__social">
           <ul class="social-list">
-            <li class="social-list-item">
-              <div class="social-item-content">
-                <img class="social-item-img"
+            <li class="social-list__item">
+              <a class="social">
+                <img class="social__img"
                   src="https://s3-alpha-sig.figma.com/img/2ade/1eda/29afd4c1cb7a1c684b6a93b429fbdcb9?Expires=1643587200&Signature=T9-IJB6EiGQ20e8lmIMv27sLMml~3LvZTPexJPBLLrW86TsmL~0NbaLkZVxdLp3pnZOT7NWBtRDMWDY4kU9JJaSN-PzrWHQNDkbZGCFTjF195P~H-797yUCvVSEevtOLQnJ79VFcfFX37fuScpYTAu~IVFKNsWPeBLLlKlpODGNJ5XVAAPnFFC~JtQ5sfYlixAWRe0xA46fLrbgsrcBmGUZ7uJAlSMLVuizCe3svR7ruRXpCWeeeYgK-5hy8J5EYEspYMI1joLmvjyTZJSiQ7zRmAcmL7P6NzWtB7IK4W4-i3yOcyKTZ7pUJQSlVqVOYaZMj8yD2HgvsYMl~ZcQCIA__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
                   alt="">
-              </div>
+              </a>
             </li>
+
             <li class="social-list-item">
               <div class="social-item-content">
                 <img class="social-item-img"
@@ -262,14 +283,14 @@
             </li>
           </ul>
         </div>
+
         <div class="footer-tel">
           <p>Бесплатный звонок по России</p>
-          <div class="header-tel">
-            <a class="tel" href="tel:+78007003030">8 800 700 30 30</a>
-          </div>
+
+          <a class="tel" href="tel:+78007003030">8 800 700 30 30</a>
         </div>
       </footer>
-    </div>
+    </footer>
   </div>
 </body>
 
