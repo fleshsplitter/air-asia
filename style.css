@@ -1,3 +1,140 @@
 body {
   font-family: 'Open Sans', sans-serif;
+  background-color: #001821;
+  color: #fff;
+}
+h2 {
+  font-size: 36px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+background-color: #500;
+width: 1140px;
+margin: 27px 390px 0px;
+}
+
+.header {
+  position: relative;
+  margin-top: 27px;
+}
+
+.logo {
+  display: inline-block;
+  margin-right: 79px;
+}
+
+.navigation {
+  display: inline-block;
+}
+
+.navigation__item {
+  display: inline-block;
+  margin-right: 54px;
+}
+
+.contacts {
+  display: inline-block;
+  text-align: right;
+  position: absolute;
+  right: 0px;
+}
+
+.contacts__tel {
+  display: block;
+  font-size: 26px;
+}
+
+.main-section {
+  margin-top: 46px;
+  width: 511px;
+  height: 333px;
+}
+
+.main-section__title {
+  font-size: 72px;
+}
+
+.main-section__text {
+  margin-top: 28px;
+}
+
+.main__button {
+  margin-top: 34px;
+}
+
+.tours {
+  margin-top: 246px;
+}
+
+.tours__header {
+  display: inline-block;
+  /* font-size: 36px; */
+  margin: 0;
+}
+
+.burning-flame {
+  display: inline-block;
+  margin-left: 12px;
+  width: 21px;
+  height: 28px;
+}
+
+.section__content {
+  margin-top: 51px;
+}
+
+.country {
+  display: inline-block;
+  height: 305px;
+  width: 362px;
+  margin-right: 22px;
+}
+
+.country:last-child {
+  margin-right: 0;
+}
+
+.tours-icons {
+  margin-left: 28px;
+}
+
+.tours-icons * {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.tours-icons__pic {
+  margin-right: 10px;
+}
+
+.tours-icons__text {
+margin: 0 28px 0 0;
+}
+
+.country__text {
+  margin: 24px 16px 0 22px;
+}
+
+.country__button {
+  margin-top: 25px ;
+  margin-bottom: 26px;
+  margin-left: 24px;
+}
+
+.news {
+  margin-top: 127px;
+}
+
+.news__elem {
+  display: inline-block;
+  width: 557px;
+  height: 394px;
+}
+
+.news__time {
 }
