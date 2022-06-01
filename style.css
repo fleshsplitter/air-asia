@@ -1,7 +1,7 @@
 body {
   font-family: 'Open Sans', sans-serif;
-  background: url(/img/hero.jpg) no-repeat, 
-  url(/img/bottom-pic.jpg)  bottom no-repeat ;
+  background: url(./img/hero.jpg) no-repeat, 
+  url(./img/bottom-pic.jpg)  bottom no-repeat ;
   background-color: #001821;
   color: #fff;
   /* margin: -25px 0 0; */
@@ -29,6 +29,8 @@ a {
 }
 
 button {
+  font-family: 'Open Sans', sans-serif; 
+  font-weight: 700;
   color: #fff;
   background: #f5170e;
   border-radius: 35px;
@@ -57,7 +59,9 @@ margin: 0px 390px 0px;
 
 .navigation {
   display: inline-block;
+  font-size: 14px;
 }
+
 
 .navigation__item {
   display: inline-block;
@@ -67,6 +71,7 @@ margin: 0px 390px 0px;
 .navigation__item:last-child {
   margin-right: 0;
 }
+
 
 .contacts {
   display: inline-block;
@@ -121,14 +126,49 @@ margin: 0px 390px 0px;
 
 .country {
   display: inline-block;
-  height: 305px;
+  height: 479px;
   width: 362px;
   margin-right: 22px;
+  background: #fff;
+  color: #000;
+  border-radius: 7px;
 }
 
 .country:last-child {
   margin-right: 0;
 }
+
+.country__img {
+  border-radius: 5px 5px 0 0;
+}
+
+.country__header {
+  font-size: 24px;
+  margin: 33px 0 21px 22px;
+}
+
+.country__button {
+  display: inline-block;
+  width: 153px;
+  margin: 25px 24px;
+  padding: 0;
+}
+
+.tours__button {
+  font-family: 'Open Sans', sans-serif; 
+  font-weight: 700;
+  color: #f5170e;
+  background: #fff;
+  border-radius: 35px;
+  font-size: 14px;
+  text-transform: uppercase;
+  height: 55px;
+  padding: 18px 40px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #f5170e;
+}
+
 
 .tours-icons {
   margin-left: 28px;
@@ -151,11 +191,6 @@ margin: 0 28px 0 0;
   margin: 24px 16px 0 22px;
 }
 
-.country__button {
-  margin-top: 25px ;
-  margin-bottom: 26px;
-  margin-left: 24px;
-}
 
 .news {
   margin-top: 127px;
@@ -182,12 +217,11 @@ margin: 0 28px 0 0;
   margin-right: 0;
 }
 
-/* .news__time {
-  position: absolute;
-  bottom: 10px;
-  left: 10px; */
-  
-  .news__text {
+.news__img {
+  border-radius: 8px;
+}
+
+.news__text {
     position: absolute;
     top: 252px;
     left: 29px;
@@ -195,6 +229,7 @@ margin: 0 28px 0 0;
 }
 
   .news__time {
+    display: block;
   font-size: 14px;
   margin-bottom: 13px; /*не работает сука! */
   }
@@ -241,6 +276,7 @@ margin: 0 28px 0 0;
   width: 490px;
   height: 505px;
   z-index: 0;
+  border-radius: 7px;
 }
 .about__main {
   position: absolute;
@@ -249,6 +285,10 @@ margin: 0 28px 0 0;
   width: 785px;
   height: 455px;
   /* z-index: 1; */
+}
+
+.about__main-background {
+  border-radius: 7px;
 }
 
 .about_main-content {
@@ -264,6 +304,8 @@ margin: 0 28px 0 0;
   position: relative;
   height: 93px;
   padding-top: 10px;
+  display: flex;
+  align-items: center;
 }
 
 .footer__social {
