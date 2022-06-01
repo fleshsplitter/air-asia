@@ -6,6 +6,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Air-asia</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="fonts.css">
 </head>
 
 <body>
@@ -35,8 +37,8 @@
       <div class="contacts">
         <a class="contacts__tel" href="tel:+78007003030">8 800 700 30 30</a>
         <span class="timetable" href="">График работы</span>
-          <p class="timetable__schedule">пн-вс: 09:00 - 20:00<br>
-            Обед: 14:00-14:30</p>
+          <!-- <p class="timetable__schedule">пн-вс: 09:00 - 20:00<br>
+            Обед: 14:00-14:30</p> -->
       </div>
     </header>
 
@@ -44,14 +46,16 @@
       <section class="main-section">
         <h1 class="main-section__title">Авторские туры по Азии</h1>
         <p class="main-section__text">Открой для себя Азию</p>
-        <button class="button" type="button">
-          подробнее
-        </button>
+        <div class="main__button">
+          <button class="button" type="button">
+            подробнее
+          </button>
+        </div>
       </section>
 
       <section class="tours">
         <div class="section__title">
-          <h2>Горящие туры</h2>
+          <h2 class="tours__header">Горящие туры</h2>
           <img class="burning-flame"
             src="img/flame.svg"
             alt="">
@@ -83,9 +87,11 @@
                   Равным образом постоянное обеспечение нашей деятельности позволяет оценить значение систем массового
                   участия.
                 </p>
-                <button class="button" type="button">
-                  смотреть
-                </button>
+                <div class="country__button">
+                  <button class="tours__button" type="button">
+                    смотреть
+                  </button>
+                </div>
               </div>
             </li>
             <li class="country">
@@ -112,9 +118,11 @@
                   Равным образом постоянное обеспечение нашей деятельности позволяет оценить значение систем массового
                   участия.
                 </p>
-                <button class="button" type="button">
-                  смотреть
-                </button>
+                <div class="country__button">
+                  <button class="tours__button" type="button">
+                    смотреть
+                  </button>
+                </div>
               </div>
             </li>
             <li class="country">
@@ -141,9 +149,11 @@
                   Равным образом постоянное обеспечение нашей деятельности позволяет оценить значение систем массового
                   участия.
                 </p>
-                <button class="button" type="button">
-                  смотреть
-                </button>
+                <div class="country__button">
+                  <button class="tours__button" type="button">
+                    смотреть
+                  </button>
+                </div>
               </div>
             </li>
           </ul>
@@ -158,24 +168,24 @@
         <div class="news__content">
           <ul class="news__list">
             <li class="news__elem">
-                <img class="news-img"
+                <img class="news__img"
                   src="img/plain.jpg"
                   alt="">
-                <time class="news__time">Декабрь 2019</time>
-                <div class="news__text">
-                  <h3>Дешевые путевки на Новый Год!</h3>
-                  <p>Проведи новый год в Тайланде</p>
+                  <div class="news__text">
+                  <time class="news__time">Декабрь 2019</time>
+                  <h3 class="news__h3">Дешевые путевки на Новый Год!</h3>
+                  <p class="news__description">Проведи новый год в Тайланде</p>
                 </div>
             </li>
 
             <li class="news__elem">
-                <img class="news-img"
+                <img class="news__img"
                   src="img/Surfer.jpg"
                   alt="">
-                <time class="news__time">Декабрь 2019</time>
-                <div class="news__text">
-                  <h3>Акция для серфенгистов!</h3>
-                  <p>В сезон больших волн скидка на путевку в Тайланд на остров серфенгистов. Удачного пути!</p>
+                  <div class="news__text">
+                  <time class="news__time">Декабрь 2019</time>
+                  <h3 class="news__h3">Акция для серфенгистов!</h3>
+                  <p class="news__description">В сезон больших волн скидка на путевку в Тайланд на остров серфенгистов. Удачного пути!</p>
                 </div>
             </li>
           </ul>
@@ -272,12 +282,12 @@
           </ul>
         </div>
 
-        <div class="footer-tel">
-          <p>Бесплатный звонок по России</p>
-          <a class="tel" href="tel:+78007003030">8 800 700 30 30</a>
+        <div class="contacts">
+          <p class="free-ring">Бесплатный звонок по России</p>
+          <a class="contacts__tel" href="tel:+78007003030">8 800 700 30 30</a>
         </div>
+      </footer>
       </div>
-    </footer>
   </div>
 </body>
 </html>
