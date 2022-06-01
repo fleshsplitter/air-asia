@@ -1,6 +1,6 @@
 body {
   font-family: 'Open Sans', sans-serif;
-  background: url(./img/hero.jpg) no-repeat, 
+  background: url(./img/hero.jpg) top no-repeat, 
   url(./img/bottom-pic.jpg)  bottom no-repeat ;
   background-color: #001821;
   color: #fff;
@@ -44,7 +44,7 @@ button {
 
 .wrapper {
 width: 1140px;
-margin: 0px 390px 0px;
+margin: 0 auto;
 }
 
 .header {
