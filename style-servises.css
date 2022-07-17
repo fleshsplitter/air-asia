@@ -1,0 +1,182 @@
+h1 {
+  margin: 0;
+}
+html, body {
+  /* background: #001821; */
+  font-family: 'Open Sans', sans-serif;
+  height: 100%;
+}
+
+ul, li {
+  list-style: none;
+}
+
+.wrapper {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.wrapper__content {
+  flex: 1 1 auto;
+}
+
+.upper-section {
+  background: url(/img/headline.jpg) center no-repeat;
+  display: flex;
+  color: #fff;
+  flex-direction: column;
+  /* margin-top: 29px; */
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0px auto;
+}
+
+.header {
+  margin-top: 29px;
+}
+
+.header__row {
+  display: flex;
+}
+
+.logo {
+  margin: 0 66px 0 0;
+}
+
+.navigation {
+  flex: 1 1 auto;
+}
+
+.navigation__list {
+  display: flex;
+}
+
+
+.navigation__item {
+  margin-right: 54px;
+  font-size: 14px;
+}
+
+.navigation__item:last-child {
+  margin: 0;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.contacts__tel {
+  font-size: 26px;
+}
+
+.timetable {
+  font-size: 13px;
+}
+
+.underheader {
+  margin-top: 94px;
+}
+
+.underheader__title {
+  font-size: 72px;
+}
+
+.underheader__breadcrumbs {
+  margin-top: 103px;
+  display: flex;
+}
+
+ul.underheader__breadcrumbs li+li:before {
+  content: "/\00a0";
+  padding: 2px;
+}
+
+.main {
+  background-color: #fff;
+
+}
+.main-section {
+  color: #303030;
+}
+
+.main-section h3 {
+  color: #000;
+}
+
+.main-section p {
+
+}
+
+.main__row {
+  display: flex;
+  flex-direction: column;
+}
+
+.servises {
+  display: flex;
+  flex-direction: column;
+}
+
+.servises__elem {
+  display: flex;
+}
+
+.servises__img {
+  height: 333px;
+  width: 460px;
+  flex: 0 0 auto;
+}
+
+.servises__pic {
+  display: block;
+  object-fit: none;
+  height: 100%;
+  width: 100%;
+  
+}
+
+.partners {
+  background-color: #F4F5F5;
+
+}
+.partners h2 {
+  color: #1A1B1E;
+}
+
+
+
+.footer {
+  background: #001821;
+  color: #fff;
+
+}
+.footer_row {
+  display: flex;
+  margin: 48px 0 32px 0;
+  align-items: center;
+}
+
+.footer__navigation {
+  flex: 0 1 539px;
+}
+
+.footer__social {
+  width: 174px;
+}
+.social-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__contacts {
+  flex: 1 1 auto;
+}
+.free-ring {
+  font-size: 11px;
+}
