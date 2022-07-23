@@ -189,6 +189,11 @@ ul.underheader__breadcrumbs li+li:before {
 .partners__title {
   color: #1A1B1E;
   margin: 88px 0 99px;
+  font-size: 48px;
+}
+
+.partners__main {
+  margin-bottom: 50px;
 }
 
 .partners__list {
