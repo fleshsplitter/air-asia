@@ -22,7 +22,7 @@ ul, li {
 }
 
 .upper-section {
-  background: url(/img/headline.jpg) center no-repeat;
+  background: url(./img/headline.jpg) center no-repeat;
   display: flex;
   color: #fff;
   flex-direction: column;
@@ -108,9 +108,6 @@ ul.underheader__breadcrumbs li+li:before {
   color: #000;
 }
 
-.main-section p {
-
-}
 
 .main__row {
   display: flex;
