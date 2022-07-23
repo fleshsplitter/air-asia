@@ -2,7 +2,6 @@ h1, h2, h3, p {
   margin: 0;
 }
 html, body {
-  /* background: #001821; */
   font-family: 'Open Sans', sans-serif;
   height: 100%;
 }
@@ -27,7 +26,6 @@ ul, li {
   display: flex;
   color: #fff;
   flex-direction: column;
-  /* margin-top: 29px; */
   margin-bottom: 98px;
 }
 
@@ -182,9 +180,30 @@ ul.underheader__breadcrumbs li+li:before {
   background-color: #F4F5F5;
 
 }
-.partners h2 {
-  color: #1A1B1E;
+
+.partners__row {
+  display: flex;
+  flex-direction: column;
 }
+
+.partners__title {
+  color: #1A1B1E;
+  margin: 88px 0 99px;
+}
+
+.partners__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.partners__elem {
+  margin-bottom: 70px;
+  /* flex: 0 1 260px; */
+}
+
+
 
 
 
