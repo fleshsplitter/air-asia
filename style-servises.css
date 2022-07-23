@@ -1,4 +1,4 @@
-h1 {
+h1, h2, h3, p {
   margin: 0;
 }
 html, body {
@@ -28,6 +28,7 @@ ul, li {
   color: #fff;
   flex-direction: column;
   /* margin-top: 29px; */
+  margin-bottom: 98px;
 }
 
 .container {
@@ -121,25 +122,61 @@ ul.underheader__breadcrumbs li+li:before {
 .servises {
   display: flex;
   flex-direction: column;
+  margin-bottom: 70px;
 }
 
 .servises__elem {
   display: flex;
+  margin-bottom: 49px;
 }
 
 .servises__img {
   height: 333px;
   width: 460px;
   flex: 0 0 auto;
+  margin-right: 56px;
 }
 
 .servises__pic {
+  border-radius: 5px;
   display: block;
   object-fit: none;
   height: 100%;
   width: 100%;
   
 }
+.servises__elem-text p {
+  margin: 0;
+  line-height: 27px;
+  margin-bottom: 35px;
+}
+
+.servises__title {
+  font-size: 36px;
+  margin: 12px 0 29px;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 92px;
+}
+.pagination__text {
+  margin-right: 25px;
+}
+.pagination__list {
+  display: flex;
+  justify-content: space-between;
+  width: 214px;
+
+}
+.pagination__item {
+  font-weight: bold;
+}
+
+
+
+
 
 .partners {
   background-color: #F4F5F5;
